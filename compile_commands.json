@@ -1,0 +1,19 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-c",
+      "-Wall",
+      "-Wextra",
+      "-std=c11",
+      "-pedantic",
+      "-ggdb",
+      "-o",
+      "build/curse",
+      "src/main.c"
+    ],
+    "directory": "/home/thepanable/Dev/personal/curses",
+    "file": "/home/thepanable/Dev/personal/curses/src/main.c",
+    "output": "/home/thepanable/Dev/personal/curses/build/curse"
+  }
+]
