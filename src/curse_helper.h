@@ -17,9 +17,9 @@
     }\
     while(0)\
 
-#define END_CURSES \
+#define END_CURSES\
     do { \
         getch();\
         endwin();\
     }\
-    while(0)\
+    while(0)
