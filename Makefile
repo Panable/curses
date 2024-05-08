@@ -10,7 +10,7 @@ build: clean
 	@./build.sh
 
 run: build
-	@build/./process
+	@build/./curse
 
 all: build
 
