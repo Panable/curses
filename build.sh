@@ -3,9 +3,9 @@
 set -xe
 
 CC=cc
-LIBS="-lncurses"
+LIBS="-lc -lncurses -lcjson"
 CFLAGS="-Wall -Wextra -std=c11 -pedantic -ggdb"
 
 SRC="src/main.c"
 
-bear -- $CC $CFLAGS -o build/curse $SRC $LIBS
+bear -- $CC $CFLAGS -o build/process $SRC $LIBS
